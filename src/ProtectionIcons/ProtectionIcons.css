@@ -1,0 +1,48 @@
+/**
+ * @name            ProtectionIcons
+ * @version         v1.2
+ * @author          Ursuul
+ * @author			Joritochip
+ * @description     Styles the ProtectionIcons script.
+ */
+ .page-header__contribution-buttons #create-protection,
+ .UserProfileActionButton #create-protection,
+ .page-header__contribution-buttons #edit-protection,
+ .UserProfileActionButton #edit-protection {
+     display: inline;
+     cursor: help;
+ }
+  
+ .page-header__contribution-buttons .wds-list #ca-move,
+ .UserProfileActionButton #ca-move,
+ .page-header__contribution-buttons .wds-list #ca-replace-file {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+  
+ .page-header__contribution-buttons .wds-list #ca-move #move-protection,
+ .UserProfileActionButton #ca-move #move-protection,
+ .page-header__contribution-buttons .wds-list #ca-replace-file #upload-protection {
+     margin-left: 0.5em;
+ }
+ 
+ .UserProfileActionButton .protection-level svg {
+     vertical-align: middle;
+ }
+ 
+ /* FandomDesktop styling */
+ .skin-fandomdesktop .page-header__actions > .protection-level {
+     height: 36px;
+     display: flex;
+     align-items: center;
+     margin-right: 0.75em;
+     color: var(--theme-link-color);
+ }
+ .skin-fandomdesktop .page-header__actions .wds-dropdown__content .protection-level {
+     display: flex;
+     align-items: center;
+     height: 14px;
+     width: 14px;
+ }
+ 
