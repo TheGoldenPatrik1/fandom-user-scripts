@@ -1,6 +1,12 @@
 # Fandom User Scripts
 
-In the past, I was a volunteer contributor on various [Fandom](https://www.fandom.com/) wikis. A lot of my work involved creating user scripts with [JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript) and [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) to provide various editing, stylistic, and administration enhancements for Fandom websites. This repository serves as an archive of some of what I created. Each script is organized into its own folder within the `src` directory, and includes JS, CSS, and [Lua](https://www.lua.org/) files where applicable.
+In the past, I was a volunteer contributor on various [Fandom](https://www.fandom.com/) wikis. A lot of my work involved creating user scripts with [JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript) and [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) to provide various editing, stylistic, and administration enhancements for Fandom websites.
+
+This repository serves as an archive of some of what I created. Each script is organized into its own folder within the `src` directory, and includes JS, CSS, and [Lua](https://www.lua.org/) files where applicable.
+
+It is worth noting that, given the collaborative nature of the [Fandom Developers Wiki](https://dev.fandom.com/wiki/Fandom_Developers_Wiki), I am not responsible for every line of code in every file. However, these are the scripts and modules that I am the primary author of.
+
+Also of note is the fact that this repository is an *archive*. As such, the code in this repository might be out-of-date with the latest version of the code on the Fandom Developers Wiki.
 
 ---
 
